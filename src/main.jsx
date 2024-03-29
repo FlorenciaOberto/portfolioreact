@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { portfolioapp } from './portfolioapp'
+import { PortfolioApp } from './portfolioApp'
+
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <portfolioapp/>
-  </React.StrictMode>,
+   <PortfolioApp/>
+    </React.StrictMode>,
 )
